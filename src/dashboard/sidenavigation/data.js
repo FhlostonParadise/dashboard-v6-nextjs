@@ -1,53 +1,33 @@
-import HomeIcon from './icons/home';
-import MediasIcon from './icons/medias';
-import ContactIcon from './icons/contact';
-import ServersIcon from './icons/servers';
-import TerminalIcon from './icons/terminal';
-import SettingsIcon from './icons/settings';
-import RecycleBinIcon from './icons/recycle-bin';
-import DocumentationIcon from './icons/documentation';
+import { FaHome, FaHeadphones, FaEnvelope, FaComment, FaIdBadge } from 'react-icons/fa';
+
 
 const data = [
   {
-    title: 'Users',
-    icon: <HomeIcon />,
+    title: 'Home',
+    icon: <FaHome />,
     link: '/',
   },
   {
-    title: 'Medias',
-    icon: <MediasIcon />,
-    link: '/admin/medias',
+    title: 'Resume',
+    icon: <FaIdBadge />,
+    link: '/admin/resume',
   },
   {
-    title: 'Contacts',
-    icon: <ContactIcon />,
-    link: '/admin/contacts',
+    title: 'Blog',
+    icon: <FaComment />,
+    link: '/admin/blog',
   },
   {
-    title: 'Servers',
-    icon: <ServersIcon />,
+    title: 'Contact',
+    icon: <FaEnvelope />,
     link: '/admin/servers',
   },
   {
-    title: 'Settings',
-    icon: <SettingsIcon />,
+    title: 'Music',
+    icon: <FaHeadphones />,
     link: '/admin/settings',
   },
-  {
-    title: 'Terminal',
-    icon: <TerminalIcon />,
-    link: '/admin/terminal',
-  },
-  {
-    title: 'Recycle Bin',
-    icon: <RecycleBinIcon />,
-    link: '/admin/recycle-bin',
-  },
-  {
-    title: 'Documentation',
-    icon: <DocumentationIcon />,
-    link: '/admin/documentation',
-  },
+  
 ];
 
 export default data;
