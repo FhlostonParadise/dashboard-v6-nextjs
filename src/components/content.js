@@ -6,10 +6,13 @@ const Content = ({ title }) => (
   <div>
   <section className="py-2 px-4">
     <div className="w-full px-2 rounded-2xl">
-      <div className="relative p-4 text-center bg-gray-900 rounded-2xl shadow-xl">    
-        <img className="block object-cover mx-auto mb-5 h-[156px]" src="./images/mbay-round.png" alt="Me" />
-        <h4 className="text-xl text-white font-bold mb-3">Carson H. Franklin</h4>
-        <span className="inline-block px-4 py-1 mb-6 text-xs text-green-500 font-medium bg-teal-900 rounded-full">IT Manager / Managed Services Executive</span>
+      <div className="relative p-4 text-center bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 rounded-2xl shadow-xl">    
+        <img className="block object-cover shadow-lg mx-auto mb-5 h-[156px]" src="./images/mbay-round.png" alt="Me" />
+        <h4 className="text-xl text-white font-bold mb-2">Carson H. Franklin</h4>
+        <div className='mb'>
+        <span className="inline-block px-4 py-1 mb-1 text-xs text-green-500 font-medium bg-teal-900 rounded-full">IT Manager / Managed Services Executive</span></div>
+        <div>
+        <span className="inline-block px-2 py-1 mb-4 text-xs text-blue-400 font-medium bg-blue-900 rounded-full">Gen-X / Millenial Day-Walker</span></div>
         <div>
           <div className="inline-block items-center">
             <div className="px-2 mb-2 sm:mb-0">

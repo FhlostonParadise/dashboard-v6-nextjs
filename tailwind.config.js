@@ -1,10 +1,13 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}', 
+    './pages/**/*.js',
+  ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+      
   },
-  variants: {
-    extend: {},
-  },
+},
   plugins: [],
-};
+}

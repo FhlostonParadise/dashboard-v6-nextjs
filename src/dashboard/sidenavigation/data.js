@@ -20,7 +20,7 @@ const data = [
   {
     title: 'Contact',
     icon: <FaEnvelope />,
-    link: '/admin/servers',
+    link: '/admin/contact',
   },
   {
     title: 'Music',

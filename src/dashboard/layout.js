@@ -8,8 +8,9 @@ import DashboardProvider from './provider/context';
 
 const style = {
   container: `h-screen overflow-hidden relative`,
-  mainContainer: `bg-gray-900 flex flex-col h-screen pl-0 w-full lg:w-[calc(100%-16rem)]`,
-  main: `bg-gray-400 h-screen overflow-auto pb-36 pt-4 px-2 md:pb-8 md:px-4 lg:px-6 lg:rounded-tl-3xl`,
+  mainContainer: `bg-gradient-to-r from-gray-400 via-gray-700 to-gray-700 flex flex-col h-screen pl-0 w-full lg:w-[calc(100%-16rem)]`,
+  main: `h-screen overflow-auto pb-36 pt-4 px-2 md:pb-8 md:px-4 lg:px-6 lg:rounded-tl-3xl`,
+  
 };
 
 export default function DashboardLayout({ children }) {
@@ -23,7 +24,7 @@ export default function DashboardLayout({ children }) {
             <TopNavigation />
             <main className={style.main}>{children}</main>
           </div>
-        </div>
+          </div>
       </div>
     </DashboardProvider>
   );
